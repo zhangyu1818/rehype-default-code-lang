@@ -1,0 +1,22 @@
+{
+  "name": "rehype-default-code-lang",
+  "version": "1.0.0",
+  "type": "module",
+  "author": "zhangyu1818<hey@zhangyu.dev>",
+  "repository": "https://github.com/zhangyu1818/rehype-default-code-lang",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/hast": "^3.0.4",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.5",
+    "unified": "^11.0.4"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "unist-util-visit": "^5.0.0"
+  }
+}
